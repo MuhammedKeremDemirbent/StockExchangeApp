@@ -1,6 +1,6 @@
 ﻿namespace StockExchangeApp
 {
-    partial class Form1
+    partial class StockExchange
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.
@@ -30,12 +30,12 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // StockExchange
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
+            this.Name = "StockExchange";
             this.Text = "Stock Exchange";
             this.ResumeLayout(false);
 
