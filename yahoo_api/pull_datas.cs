@@ -9,11 +9,11 @@ namespace StockExchangeApp.yahoo_api
 {
     internal class pull_datas
     {
-        public static async Task<string> GetQuoteAsync(string symbol)
+        public static async Task<string> GetQuoteAsync(string symbol) //Task<string> asenkron metot string döndürecek.
         {
-            try
+            try //İçinde veri çekme işlemi yapıyoruz.
             {
-                var securities = await Yahoo.Symbols(symbol)
+                var securities = await Yahoo.Symbols(symbol) 
                     .Fields(Field.Symbol, Field.RegularMarketPrice, Field.Currency, Field.RegularMarketTime)
                     .QueryAsync();
 
@@ -23,7 +23,7 @@ namespace StockExchangeApp.yahoo_api
                 var currency = data[Field.Currency];
                 var time = data[Field.RegularMarketTime];
 
-                return $"{symbol} : {price} {currency} ";
+                return $"{symbol.Replace(".IS","")} : {price} {currency} ";
             }
             catch (Exception ex)
             {

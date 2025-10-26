@@ -14,12 +14,11 @@ namespace StockExchangeApp
 {
     public partial class StockExchange : Form
     {
-        public static readonly HttpClient client = new HttpClient();
+        public static readonly HttpClient client = new HttpClient(); //Web apileri için nesne oluşturduk. Nugetten çekiyoruz gerek yok şuanlık.
         public StockExchange()
         {
             InitializeComponent();
         }
-
         private async void StockExchange_Load(object sender, EventArgs e)
         {
             while (true)
