@@ -30,6 +30,7 @@
         {
             this.lblAKSEN = new System.Windows.Forms.Label();
             this.lblGARAN = new System.Windows.Forms.Label();
+            this.txtbxVeri_isteme = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblAKSEN
@@ -50,11 +51,19 @@
             this.lblGARAN.TabIndex = 1;
             this.lblGARAN.Text = "GARAN";
             // 
+            // txtbxVeri_isteme
+            // 
+            this.txtbxVeri_isteme.Location = new System.Drawing.Point(162, 202);
+            this.txtbxVeri_isteme.Name = "txtbxVeri_isteme";
+            this.txtbxVeri_isteme.Size = new System.Drawing.Size(190, 22);
+            this.txtbxVeri_isteme.TabIndex = 2;
+            // 
             // StockExchange
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtbxVeri_isteme);
             this.Controls.Add(this.lblGARAN);
             this.Controls.Add(this.lblAKSEN);
             this.Name = "StockExchange";
@@ -69,6 +78,7 @@
 
         private System.Windows.Forms.Label lblAKSEN;
         private System.Windows.Forms.Label lblGARAN;
+        private System.Windows.Forms.TextBox txtbxVeri_isteme;
     }
 }
 

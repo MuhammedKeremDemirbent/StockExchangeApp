@@ -23,7 +23,7 @@ namespace StockExchangeApp
         {
             while (true)
             {
-                lblAKSEN.Text = await pull_datas.GetQuoteAsync("AKSEN.IS");
+                lblAKSEN.Text = await pull_datas.GetQuoteAsync(txtbxVeri_isteme.Text);
                 lblGARAN.Text = await pull_datas.GetQuoteAsync("GARAN.IS");
                 await Task.Delay(5000);
             }
