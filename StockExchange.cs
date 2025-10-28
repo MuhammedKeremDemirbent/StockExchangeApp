@@ -41,11 +41,11 @@ namespace StockExchangeApp
 
             if (string.IsNullOrEmpty(fiyatStr)) return false;
 
-            string temizFiyatStr = new string(fiyatStr.Where(c => char.IsDigit(c) || c == '.' || c == ',').ToArray()); // Nokta ve virgülü bırakarak harfleri temizleme işlemi
-            temizFiyatStr = temizFiyatStr.Replace(',', '.');  //Virgülleri noktaya çevirir
+            string temizFiyat = new string(fiyatStr.Where(c => char.IsDigit(c) || c == '.' || c == ',').ToArray()); // Nokta ve virgülü bırakarak harfleri temizleme işlemi
+            temizFiyat = temizFiyat.Replace(',', '.');  //Virgülleri noktaya çevirir
 
             return decimal.TryParse(
-                temizFiyatStr,
+                temizFiyat,
                 NumberStyles.Any,
                 CultureInfo.InvariantCulture,
                 out fiyatDecimal
