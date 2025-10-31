@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using YahooFinanceApi;
 
+//Gerekli verinin çekilebilmesi için YahooFinanceApi kütüphanesi kullanıldı. Bu kütüphane NuGet üzerinden eklenebilir.
+
 namespace StockExchangeApp.yahoo_api
 {
     internal class pull_datas
