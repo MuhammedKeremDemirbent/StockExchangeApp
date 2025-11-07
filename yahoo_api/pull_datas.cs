@@ -25,7 +25,7 @@ namespace StockExchangeApp.yahoo_api
                 var currency = data[Field.Currency];
                 var time = data[Field.RegularMarketTime];
 
-                return $"{symbol.Replace(".IS","")} : {price} {currency} ";
+                return $"{symbol.Replace(".IS","")}:{price} {currency} ";
             }
             catch (Exception ex)
             {
