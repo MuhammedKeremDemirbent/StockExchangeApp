@@ -43,14 +43,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
-=======
-            this.label5 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
->>>>>>> krm
-=======
+
+
             this.label6 = new System.Windows.Forms.Label();
->>>>>>> krm
+
             ((System.ComponentModel.ISupportInitialize)(this.hisse_gosterme_gridview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -199,30 +195,21 @@
             // label4
             // 
             this.label4.AutoSize = true;
-<<<<<<< HEAD
+
             this.label4.Location = new System.Drawing.Point(541, 74);
-=======
+
             this.label4.Location = new System.Drawing.Point(508, 74);
->>>>>>> krm
+
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 16);
             this.label4.TabIndex = 10;
             this.label4.Text = "label4";
             // 
-<<<<<<< HEAD
-=======
+
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(230, 74);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "label5";
-            // 
-<<<<<<< HEAD
->>>>>>> krm
-=======
+            
+
             // label6
             // 
             this.label6.AutoSize = true;
@@ -232,20 +219,14 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "label6";
             // 
->>>>>>> krm
+
             // StockExchange
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1088, 674);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
+
             this.Controls.Add(this.label6);
->>>>>>> krm
-            this.Controls.Add(this.label5);
->>>>>>> krm
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -278,13 +259,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-<<<<<<< HEAD
-=======
-        private System.Windows.Forms.Label label5;
-<<<<<<< HEAD
->>>>>>> krm
-=======
+
         private System.Windows.Forms.Label label6;
->>>>>>> krm
+
     }
 }
