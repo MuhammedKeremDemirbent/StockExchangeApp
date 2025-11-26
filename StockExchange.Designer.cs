@@ -43,11 +43,10 @@
             // 
             // txtbxVeri_isteme
             // 
-            this.txtbxVeri_isteme.Location = new System.Drawing.Point(52, 26);
-            this.txtbxVeri_isteme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtbxVeri_isteme.Multiline = true;
+            this.txtbxVeri_isteme.Location = new System.Drawing.Point(32, 34);
+            this.txtbxVeri_isteme.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtbxVeri_isteme.Name = "txtbxVeri_isteme";
-            this.txtbxVeri_isteme.Size = new System.Drawing.Size(391, 33);
+            this.txtbxVeri_isteme.Size = new System.Drawing.Size(520, 22);
             this.txtbxVeri_isteme.TabIndex = 2;
             // 
             // hisse_gosterme_gridview
@@ -77,13 +76,13 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.hisse_gosterme_gridview.DefaultCellStyle = dataGridViewCellStyle3;
             this.hisse_gosterme_gridview.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.hisse_gosterme_gridview.Location = new System.Drawing.Point(24, 97);
-            this.hisse_gosterme_gridview.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.hisse_gosterme_gridview.Location = new System.Drawing.Point(32, 119);
+            this.hisse_gosterme_gridview.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hisse_gosterme_gridview.Name = "hisse_gosterme_gridview";
             this.hisse_gosterme_gridview.RowHeadersVisible = false;
             this.hisse_gosterme_gridview.RowHeadersWidth = 51;
             this.hisse_gosterme_gridview.RowTemplate.Height = 24;
-            this.hisse_gosterme_gridview.Size = new System.Drawing.Size(471, 374);
+            this.hisse_gosterme_gridview.Size = new System.Drawing.Size(628, 460);
             this.hisse_gosterme_gridview.TabIndex = 3;
             this.hisse_gosterme_gridview.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.hisse_gosterme_gridview.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -127,10 +126,10 @@
             // 
             // buttonhisse_goster
             // 
-            this.buttonhisse_goster.Location = new System.Drawing.Point(478, 15);
-            this.buttonhisse_goster.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonhisse_goster.Location = new System.Drawing.Point(637, 18);
+            this.buttonhisse_goster.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonhisse_goster.Name = "buttonhisse_goster";
-            this.buttonhisse_goster.Size = new System.Drawing.Size(71, 20);
+            this.buttonhisse_goster.Size = new System.Drawing.Size(95, 25);
             this.buttonhisse_goster.TabIndex = 4;
             this.buttonhisse_goster.Text = "Hisse Göster";
             this.buttonhisse_goster.UseVisualStyleBackColor = true;
@@ -138,10 +137,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(478, 53);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(637, 65);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(71, 20);
+            this.button1.Size = new System.Drawing.Size(95, 25);
             this.button1.TabIndex = 5;
             this.button1.Text = "Tarama";
             this.button1.UseVisualStyleBackColor = true;
@@ -149,14 +148,14 @@
             // 
             // StockExchange
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(816, 548);
+            this.ClientSize = new System.Drawing.Size(1088, 674);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonhisse_goster);
             this.Controls.Add(this.hisse_gosterme_gridview);
             this.Controls.Add(this.txtbxVeri_isteme);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "StockExchange";
             this.Text = "Stock Exchange";
             this.Load += new System.EventHandler(this.StockExchange_Load);
