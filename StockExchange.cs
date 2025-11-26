@@ -29,9 +29,9 @@ namespace StockExchangeApp
             while (true)
             {
                 //lblAKSEN.Text = await pull_datas.GetQuoteAsync(txtbxVeri_isteme.Text + ".IS");
-                lblAKSEN.Text = await pull_datas.GetQuoteAsync("AMZN");
+               // lblAKSEN.Text = await pull_datas.GetQuoteAsync("AMZN");
 
-                lblGARAN.Text = await pull_datas.GetQuoteAsync("AAPL");
+               // lblGARAN.Text = await pull_datas.GetQuoteAsync("AAPL");
                 await Task.Delay(3000);
             }
         }
