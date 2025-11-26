@@ -84,6 +84,14 @@ namespace StockExchangeApp
                 MessageBox.Show($"Çekilen fiyat verisi ('{fiyatStr}') sayıya dönüştürülemedi. Kayıt yapılmadı.", "Veri Format Hatası", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.Show();
+            
+        }
     }
 }
 

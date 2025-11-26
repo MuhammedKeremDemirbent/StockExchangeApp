@@ -31,42 +31,23 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.lblAKSEN = new System.Windows.Forms.Label();
-            this.lblGARAN = new System.Windows.Forms.Label();
             this.txtbxVeri_isteme = new System.Windows.Forms.TextBox();
             this.hisse_gosterme_gridview = new Guna.UI2.WinForms.Guna2DataGridView();
             this.a = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Yüzde = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.buttonhisse_goster = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.hisse_gosterme_gridview)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblAKSEN
-            // 
-            this.lblAKSEN.AutoSize = true;
-            this.lblAKSEN.Location = new System.Drawing.Point(48, 97);
-            this.lblAKSEN.Name = "lblAKSEN";
-            this.lblAKSEN.Size = new System.Drawing.Size(52, 16);
-            this.lblAKSEN.TabIndex = 0;
-            this.lblAKSEN.Text = "AKSEN";
-            // 
-            // lblGARAN
-            // 
-            this.lblGARAN.AutoSize = true;
-            this.lblGARAN.Location = new System.Drawing.Point(48, 146);
-            this.lblGARAN.Name = "lblGARAN";
-            this.lblGARAN.Size = new System.Drawing.Size(55, 16);
-            this.lblGARAN.TabIndex = 1;
-            this.lblGARAN.Text = "GARAN";
-            // 
             // txtbxVeri_isteme
             // 
-            this.txtbxVeri_isteme.Location = new System.Drawing.Point(152, 12);
-            this.txtbxVeri_isteme.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtbxVeri_isteme.Location = new System.Drawing.Point(52, 26);
+            this.txtbxVeri_isteme.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtbxVeri_isteme.Multiline = true;
             this.txtbxVeri_isteme.Name = "txtbxVeri_isteme";
-            this.txtbxVeri_isteme.Size = new System.Drawing.Size(463, 31);
+            this.txtbxVeri_isteme.Size = new System.Drawing.Size(391, 33);
             this.txtbxVeri_isteme.TabIndex = 2;
             // 
             // hisse_gosterme_gridview
@@ -96,13 +77,13 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.hisse_gosterme_gridview.DefaultCellStyle = dataGridViewCellStyle3;
             this.hisse_gosterme_gridview.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.hisse_gosterme_gridview.Location = new System.Drawing.Point(536, 86);
-            this.hisse_gosterme_gridview.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.hisse_gosterme_gridview.Location = new System.Drawing.Point(24, 97);
+            this.hisse_gosterme_gridview.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.hisse_gosterme_gridview.Name = "hisse_gosterme_gridview";
             this.hisse_gosterme_gridview.RowHeadersVisible = false;
             this.hisse_gosterme_gridview.RowHeadersWidth = 51;
             this.hisse_gosterme_gridview.RowTemplate.Height = 24;
-            this.hisse_gosterme_gridview.Size = new System.Drawing.Size(464, 283);
+            this.hisse_gosterme_gridview.Size = new System.Drawing.Size(471, 374);
             this.hisse_gosterme_gridview.TabIndex = 3;
             this.hisse_gosterme_gridview.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.hisse_gosterme_gridview.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -146,26 +127,36 @@
             // 
             // buttonhisse_goster
             // 
-            this.buttonhisse_goster.Location = new System.Drawing.Point(637, 18);
-            this.buttonhisse_goster.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonhisse_goster.Location = new System.Drawing.Point(478, 15);
+            this.buttonhisse_goster.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonhisse_goster.Name = "buttonhisse_goster";
-            this.buttonhisse_goster.Size = new System.Drawing.Size(95, 25);
+            this.buttonhisse_goster.Size = new System.Drawing.Size(71, 20);
             this.buttonhisse_goster.TabIndex = 4;
             this.buttonhisse_goster.Text = "Hisse Göster";
             this.buttonhisse_goster.UseVisualStyleBackColor = true;
             this.buttonhisse_goster.Click += new System.EventHandler(this.buttonhisse_goster_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(478, 53);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(71, 20);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Tarama";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // StockExchange
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1088, 674);
+            this.ClientSize = new System.Drawing.Size(816, 548);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.buttonhisse_goster);
             this.Controls.Add(this.hisse_gosterme_gridview);
             this.Controls.Add(this.txtbxVeri_isteme);
-            this.Controls.Add(this.lblGARAN);
-            this.Controls.Add(this.lblAKSEN);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "StockExchange";
             this.Text = "Stock Exchange";
             this.Load += new System.EventHandler(this.StockExchange_Load);
@@ -176,15 +167,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblAKSEN;
-        private System.Windows.Forms.Label lblGARAN;
         private System.Windows.Forms.TextBox txtbxVeri_isteme;
         private Guna.UI2.WinForms.Guna2DataGridView hisse_gosterme_gridview;
         private System.Windows.Forms.DataGridViewTextBoxColumn a;
         private System.Windows.Forms.DataGridViewTextBoxColumn Yüzde;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.Button buttonhisse_goster;
+        private System.Windows.Forms.Button button1;
     }
 }
 
