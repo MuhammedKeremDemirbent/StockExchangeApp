@@ -96,7 +96,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.hisse_gosterme_gridview.DefaultCellStyle = dataGridViewCellStyle3;
             this.hisse_gosterme_gridview.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.hisse_gosterme_gridview.Location = new System.Drawing.Point(152, 78);
+            this.hisse_gosterme_gridview.Location = new System.Drawing.Point(536, 86);
             this.hisse_gosterme_gridview.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hisse_gosterme_gridview.Name = "hisse_gosterme_gridview";
             this.hisse_gosterme_gridview.RowHeadersVisible = false;
@@ -159,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1088, 674);
             this.Controls.Add(this.buttonhisse_goster);
             this.Controls.Add(this.hisse_gosterme_gridview);
             this.Controls.Add(this.txtbxVeri_isteme);
