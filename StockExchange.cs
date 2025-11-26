@@ -98,7 +98,7 @@ namespace StockExchangeApp
             // pull_datas.GetQuoteAsync() metodunuzun sadece fiyat döndürdüğünü varsayıyoruz.
             string fiyatStr = await pull_datas.GetQuoteAsync(tamSembol);
 
-            // Yüzde ve Hacim verilerini API'den çekemediğimiz için şimdilik boş/varsayılan değerler döndürüyoruz.
+            // Yüzde ve Hacim verilerini API'den çekemediğimiz için şimdilik boş/varsayılan değerler döndürüyoruz...
             return new HisseVerileri
             {
                 FiyatStr = fiyatStr,
