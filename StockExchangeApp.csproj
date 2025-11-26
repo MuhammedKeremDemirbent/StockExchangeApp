@@ -134,6 +134,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="yahoo_api\pull_datas.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StockExchange.resx">
       <DependentUpon>StockExchange.cs</DependentUpon>
     </EmbeddedResource>
