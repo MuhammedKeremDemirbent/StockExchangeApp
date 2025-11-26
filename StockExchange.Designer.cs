@@ -46,6 +46,10 @@
 <<<<<<< HEAD
 =======
             this.label5 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+>>>>>>> krm
+=======
+            this.label6 = new System.Windows.Forms.Label();
 >>>>>>> krm
             ((System.ComponentModel.ISupportInitialize)(this.hisse_gosterme_gridview)).BeginInit();
             this.SuspendLayout();
@@ -216,6 +220,18 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "label5";
             // 
+<<<<<<< HEAD
+>>>>>>> krm
+=======
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(64, 74);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 16);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "label6";
+            // 
 >>>>>>> krm
             // StockExchange
             // 
@@ -223,7 +239,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1088, 674);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+            this.Controls.Add(this.label6);
+>>>>>>> krm
             this.Controls.Add(this.label5);
 >>>>>>> krm
             this.Controls.Add(this.label4);
@@ -261,6 +281,10 @@
 <<<<<<< HEAD
 =======
         private System.Windows.Forms.Label label5;
+<<<<<<< HEAD
+>>>>>>> krm
+=======
+        private System.Windows.Forms.Label label6;
 >>>>>>> krm
     }
 }
